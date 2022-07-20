@@ -43,7 +43,12 @@
 		7C45C98828883C96001AE332 = {
 			isa = PBXGroup;
 			children = (
-				7C45C99428883C97001AE332 /* cppblasters */,
+				7C45C99728883C97001AE332 /* ResourcePath.mm */,
+				7C45C99928883C97001AE332 /* ResourcePath.hpp */,
+				7C45C99A28883C97001AE332 /* main.cpp */,
+				7C82FD3C288878A7006A8722 /* old.txt */,
+				7C45C99C28883C97001AE332 /* Resources */,
+				7C45C99528883C97001AE332 /* Supporting Files */,
 				7C45C99328883C97001AE332 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,25 +61,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C45C99428883C97001AE332 /* cppblasters */ = {
-			isa = PBXGroup;
-			children = (
-				7C45C99728883C97001AE332 /* ResourcePath.mm */,
-				7C45C99928883C97001AE332 /* ResourcePath.hpp */,
-				7C45C99A28883C97001AE332 /* main.cpp */,
-				7C82FD3C288878A7006A8722 /* old.txt */,
-				7C45C99C28883C97001AE332 /* Resources */,
-				7C45C99528883C97001AE332 /* Supporting Files */,
-			);
-			path = cppblasters;
-			sourceTree = "<group>";
-		};
 		7C45C99528883C97001AE332 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				7C45C99628883C97001AE332 /* cppblasters-Info.plist */,
 			);
-			path = "Supporting Files";
+			name = "Supporting Files";
+			path = "cppblasters/Supporting Files";
 			sourceTree = "<group>";
 		};
 		7C45C99C28883C97001AE332 /* Resources */ = {
@@ -85,7 +78,8 @@
 				7C45C9A128883C97001AE332 /* sansation.ttf */,
 				7C45C9A328883C97001AE332 /* icon.png */,
 			);
-			path = Resources;
+			name = Resources;
+			path = cppblasters/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
